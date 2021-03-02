@@ -1,3 +1,6 @@
+.navbar {
+  background-color:#DDDDDD;
+}
 .aspectRatioBox {
   padding-top: calc(2 / 3 * 100%); /* aspect ratio 3:2 */
   background-size: cover;
@@ -6,4 +9,13 @@
 #bio_pic {
   padding-top: calc(2 / 3 * 100%); /* aspect ratio 3:2 */
   background-position: top;
+}
+.description {
+  text-align: center;
+}
+a {
+  color: #333333;
+}
+.portfolio_display {
+  background-color: #DDDDDD;
 }

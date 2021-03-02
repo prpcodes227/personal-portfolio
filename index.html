@@ -9,24 +9,24 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
     <script src="https://kit.fontawesome.com/f7add7f982.js" crossorigin="anonymous"></script>
   </head>
-  <nav class="navbar bg-dark">
-    <a class="navbar-brand" href="#">Ravi Patel</a>
+  <nav class="navbar" id="navbar_home">
+    <a class="navbar-brand" href="#about_me">Ravi Patel</a>
     <div id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
-          <a href="#" class="nav-link">Home</a>
+          <a href="#navbar_home" class="nav-link">Home</a>
           <a href="#about_me" class="nav-link">About Me</a>
-          <a href="#" class="nav-link">Portfolio</a>
+          <a href="#project_portfolio" class="nav-link">Portfolio</a>
           <a href="#" class="nav-link">Let's Connect</a>
       </ul>
     </div>  
   </nav>
   <!--Main Content-->
-  <div class="container">
+  <div class="container-fluid">
     <div class="row py-4" id="about_me">
       <div class="col-12 col-md-5 mt-5">
         <div class="aspectRatioBox rounded-circle mb-2" id="bio_pic" style="background-image: url(./Images/IMG_1076.JPG)"></div>
       </div>
-      <div class="col-12 col-md-7 mt-5 pt-5 pl-5">
+      <div class="col-12 col-md-7 mt-5 pt-5 pl-5 mb-5">
         <h1>About Me</h1>
         <p>I'm recent graduate of the University of Pennsylvania, where I receied a B.Sc. in Economics from the Wharton School. My passions revolve around travel, culinary innovation, photography, drone cinematography, and investments. I have experience in the financial services sector, the hospitality sector, and am developing my skills as a freelance web developer. I am currently based out of the Philadelphia, PA area but will soon be relocating to New York City.</p>
         <div>
@@ -34,5 +34,85 @@
         <button type="button" class="btn button-outline-dark"><a href="www.linkedin.com/in/ravi-patel-889272146"><i class="fab fa-linkedin"></i> LinkedIn</a></button>
         </div>
       </div>
-    </div>  
+    </div>
+    <hr class="col-12"/>
+    <h3 class="description mb-5 py-5" id="project_portfolio">My Project Portfolio</h3>
+    <h4 class="pt-4 description">Norway</h4>
+    <div class="row my-5">
+      <div class="col-12 col-md-6">
+          <div class="aspectRatioBox mb-2" style="background-image: url(./Images/trolltunga.JPG)"></div>
+          <div class="description">
+            <p><small>Trolltunga, Norway</small></p>
+          </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="aspectRatioBox mb-2" style="background-image: url(./Images/Nwy.PNG)"></div>
+        <div class="description">
+          <p><small>Atlanterhavsveien, Norway</small></p>
+        </div>
+      </div>
+    </div>
+    <div class="row my-5">
+      <div class="col-12 col-md-6">
+        <div class="aspectRatioBox mb-2" style="background-image: url(./Images/Misty_Mountains.PNG)"></div>
+        <div class="description">
+          <p><small>Falls Near Odda, Norway</small></p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="aspectRatioBox mb-2" style="background-image: url(./Images/Norway_OR.JPG)"></div>
+        <div class="description">
+          <p><small>Atlanterhavsveien, Norway</small></p>
+        </div>
+      </div>
+    </div>
+
+    <h4 class="description">Cuba</h4>
+    <div class="row my-5">
+      <div class="col-12 col-md-6">
+        <div class="aspectRatioBox mb-2" style="background-image: url(./Images/Lady_Cuba.PNG)"></div>
+        <div class="description">
+          <p><small>Havana, Cuba</small></p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="aspectRatioBox mb-2" style="background-image: url(./Images/RP_Cuba.JPG)"></div>
+        <div class="description">
+          <p><small>Highway Near Matanzas, Cuba</small></p>
+        </div>
+      </div>
+    </div>
+
+    <h4 class="description">Cape Cod</h4>
+    <div class="row my-5">
+      <div class="col-12 col-md-6">
+        <div class="aspectRatioBox mb-2" style="background-image: url(./Images/Cape_House.JPG)"></div>
+        <div class="description">
+          <p><small>Mansion Near Osterville, Massachusetts</small></p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="aspectRatioBox mb-2" style="background-image: url(./Images/Cape_Aerial.JPG)"></div>
+        <div class="description">
+          <p><small>Coastal Shot Near Provincetown, Massachusetts</small></p>
+        </div>
+      </div>
+    </div>
+
+    <h4 class="description">Malaysia and Hong Kong</h4>
+    <div class="row my-5">
+      <div class="col-12 col-md-6">
+        <div class="aspectRatioBox mb-2" style="background-image: url(./Images/HkD.JPG)"></div>
+        <div class="description">
+          <p><small>Victoria Peak, Hong Kong</small></p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="aspectRatioBox mb-2" style="background-image: url(./Images/Petronas.JPG)"></div>
+        <div class="description">
+          <p><small>Petronas Towers, Kuala Lumpur, Malaysia</small></p>
+        </div>
+      </div>
+    </div>
+    <hr class="col-12"/>
   </div>
